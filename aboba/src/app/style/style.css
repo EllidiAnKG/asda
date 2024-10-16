@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: #1db954;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.playlist, .now-playing {
+    margin-bottom: 30px;
+}
+
+.playlist-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.playlist-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+}
+
+.song-info img {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.controls {
+    margin-top: 140px;
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+.controls button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.controls img {
+    width: 40px; 
+    height: 40px; 
+}
+
+footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 10px;
+}
+#uploadButton {
+    color: #fff;
+}
